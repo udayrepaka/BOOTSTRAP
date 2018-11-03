@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/fontawesome-all.css">-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>Grid System in Bootstrap4</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Grid System in Bootstrap4</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container mt-5">
+    <!--########################START HERE#########################-->
+
+    <!-- AUTO LAYOUT COLUMNS -->
+    <div class="container">
+        <div class="row text-white">
+            <div class="col bg-primary ">
+                <h3>Col</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad adipisci alias aliquam animi asperiores autem beatae consequatur culpa debitis dolor dolores eius eligendi ex excepturi, id incidunt laboriosam libero molestiae nisi officiis perspiciatis quam quia reiciendis sed sit vel. Commodi dicta ea eum molestias mollitia pariatur, perspiciatis velit voluptate!</p>
+            </div>
+            <div class="col bg-teal">
+                <h3>Col</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad adipisci alias aliquam animi asperiores autem beatae consequatur culpa debitis dolor dolores eius eligendi ex excepturi, id incidunt laboriosam libero molestiae nisi officiis perspiciatis quam quia reiciendis sed sit vel. Commodi dicta ea eum molestias mollitia pariatur, perspiciatis velit voluptate!</p>
+            </div>
+            <div class="col bg-warning">
+                <h3>Col</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad adipisci alias aliquam animi asperiores autem beatae consequatur culpa debitis dolor dolores eius eligendi ex excepturi, id incidunt laboriosam libero molestiae nisi officiis perspiciatis quam quia reiciendis sed sit vel. Commodi dicta ea eum molestias mollitia pariatur, perspiciatis velit voluptate!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col bg-success ">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab culpa deleniti doloremque error, explicabo in itaque, minima natus nihil nulla, numquam possimus praesentium quasi ratione recusandae sit sunt temporibus velit?</p>
+            </div>
+            <div class="col bg-light">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab culpa deleniti doloremque error, explicabo in itaque, minima natus nihil nulla, numquam possimus praesentium quasi ratione recusandae sit sunt temporibus velit?</p>
+            </div>
+            <div class="col bg-success">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab culpa deleniti doloremque error, explicabo in itaque, minima natus nihil nulla, numquam possimus praesentium quasi ratione recusandae sit sunt temporibus velit?</p>
+            </div>
+            <div class="col bg-dark text-white">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab culpa deleniti doloremque error, explicabo in itaque, minima natus nihil nulla, numquam possimus praesentium quasi ratione recusandae sit sunt temporibus velit?</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- RESPONSIVE CLASSES -->
+    <h2 class="mt-3">Responsive Classes</h2>
+    <div class="container">
+        <div class="row text-white">
+            <div class="bg-primary col-sm-6 col-md-4 col-lg-8 col-xl-6">
+                <h3>bg-primary</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium architecto aut consectetur cumque doloremque, expedita fugiat illo illum iure labore libero modi molestias nisi nobis non officia omnis optio pariatur provident ratione recusandae similique soluta suscipit tempora temporibus, ullam unde. Cum dolore impedit ipsum magnam minima, nemo quo repellendus!</p>
+            </div>
+            <div class="bg-teal col-sm-6 col-md-8 col-lg-4 col-xl-6">
+                <h3>bg-teal</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium architecto aut consectetur cumque doloremque, expedita fugiat illo illum iure labore libero modi molestias nisi nobis non officia omnis optio pariatur provident ratione recusandae similique soluta suscipit tempora temporibus, ullam unde. Cum dolore impedit ipsum magnam minima, nemo quo repellendus!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- NESTING GRIDS -->
+    <h2 class="mt-3">Nested Grids</h2>
+    <div class="container">
+        <div class="row text-white">
+            <div class="col-md-4 bg-primary">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi doloremque eos impedit laborum odio officia perspiciatis. Ad atque commodi dolorum ea magni minima necessitatibus, placeat repellat saepe, sequi temporibus unde vel vero? Aperiam, architecto at consequuntur cum ducimus eligendi, eos illum magni natus quae quisquam recusandae rerum saepe sapiente voluptatum?</p>
+            </div>
+            <div class="col-md-8 bg-secondary">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio, est ipsum laborum maxime omnis quo quos saepe sed voluptatem! Laborum, nisi obcaecati? Accusantium alias consequuntur dignissimos dolorum est, id laborum molestias, natus officiis pariatur sint totam unde. Delectus ea id nesciunt quas ratione sed vitae. Dolore expedita facere illo!</p>
+                <div class="row">
+                    <div class="col-md-6 bg-warning">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet distinctio eum eveniet ex laudantium magnam nisi officia quisquam! Aspernatur ducimus facilis fugiat ipsam laudantium omnis qui. Assumenda deleniti deserunt itaque labore maiores modi officia, quis, quos repudiandae tenetur, voluptate!</p>
+                    </div>
+                    <div class="col-md-6 bg-teal">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolore doloribus id minus officia unde voluptatem voluptates? Delectus distinctio id nesciunt possimus quia velit! Adipisci autem dignissimos ea esse eum harum incidunt, inventore iste nemo neque nostrum sapiente ullam voluptatibus?</p>
+                        <div class="row">
+                            <div class="col-md-6 bg-danger">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolor doloribus eos ex fuga, ipsam necessitatibus neque nulla obcaecati officia perferendis quidem quod recusandae repellat sit totam veritatis vero? Vel.</p>
+                            </div>
+                            <div class="col-md-6 bg-dark">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium doloribus ipsum iure perferendis porro reprehenderit sed. Amet aperiam architecto aut, cum cumque cupiditate nemo non quis, reiciendis soluta tempora voluptates!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="margin-top:500px;"></div>
+
+<!-- BODY ENDS -->
+<script src="bootstrap/js/fontawesome-all.js"></script>
+<script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+</body>
+</html>
